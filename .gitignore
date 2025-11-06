@@ -1,2 +1,9 @@
 api.env
 dataset_clean_with_lastfm.csv
+
+# Environment variables
+api.env
+.env.local
+
+# macOS meta data
+.DS_Store
