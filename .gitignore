@@ -1,4 +1,3 @@
-api.env
 dataset_clean_with_lastfm.csv
 
 # Environment variables
@@ -7,3 +6,10 @@ api.env
 
 # macOS meta data
 .DS_Store
+
+
+3-recommendation-search/cluster_labels.npy
+3-recommendation-search/clustering_results.csv
+dataset_with_lastfm_all.csv
+dataset_clean.csv
+lsh_signatures.npz
