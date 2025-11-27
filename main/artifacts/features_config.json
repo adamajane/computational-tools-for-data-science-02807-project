@@ -1,0 +1,52 @@
+{
+  "random_state": 42,
+  "records": {
+    "train": 44103,
+    "validation": 11026
+  },
+  "block_dims": {
+    "audio": 8,
+    "popularity": 3,
+    "tags": 100
+  },
+  "block_weights": {
+    "audio": 1.0,
+    "popularity": 0.4,
+    "tags": 0.9
+  },
+  "columns": {
+    "audio": [
+      "acousticness",
+      "danceability",
+      "energy",
+      "instrumentalness",
+      "liveness",
+      "loudness",
+      "speechiness",
+      "valence",
+      "tempo",
+      "tempo_log",
+      "duration_minutes"
+    ],
+    "popularity": [
+      "log_playcount",
+      "log_listeners",
+      "log_plays_per_listener"
+    ],
+    "tag_text": "tags_clean_text"
+  },
+  "tag_vectorizer": {
+    "min_df": 5,
+    "max_df": 0.5,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "max_features": 5000,
+    "svd_components": 100
+  },
+  "artifacts": {
+    "all_features": "artifacts/features_apt_all.npz",
+    "vectorizers": "artifacts/vectorizers.joblib"
+  }
+}
