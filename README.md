@@ -1,6 +1,4 @@
-# Music Similarity and Clustering
-
-## 02807 Computational Tools for Data Science
+# Music Similarity and Clustering: Computational Tools for Data Science Project (02807)
 
 This repository contains the final project for 02807 Computational Tools for Data Science. We explore music similarity search and clustering using Spotify and Last.fm data.
 
